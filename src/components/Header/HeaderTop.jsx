@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaClock } from "react-icons/fa";
 const HeaderTop = () => {
   return (
     <div className="bg-[#262B40] text-white px-4 py-2">
-      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-screen-xl mx-auto border-b border-gray-600  flex flex-col md:flex-row items-center justify-between">
         {/* Left Section: Location, Phone, Time */}
         <div className="flex flex-col md:flex-row items-center gap-6 text-sm">
           <div className="flex items-center gap-2">

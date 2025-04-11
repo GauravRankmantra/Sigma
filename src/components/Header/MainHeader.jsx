@@ -3,7 +3,7 @@ import logo from "../../assets/Images/Sigma_Logo.png";
 
 const MainHeader = () => {
   return (
-    <div className="bg-[#262B40] sticky top-0 z-50 text-white border py-2">
+    <div className="bg-[#262B40] sticky top-0 z-50 text-white py-2">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <div className="flex items-center gap-2">
