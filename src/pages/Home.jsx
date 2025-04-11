@@ -96,7 +96,7 @@ const Home = () => {
   return (
     <div>
       <Hero />
-      <div className="bg-[#f6f4ed] py-20 px-4">
+      <div className="bg-[#f6f4ed] py-5 md:py-20 px-4">
         <div className="max-w-screen-xl mx-auto place-content-center grid grid-cols-1 md:grid-cols-3 gap-6">
           {infoItems.map((item, index) => (
             <div key={index} className="flex bg-white shadow-md">

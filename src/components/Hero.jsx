@@ -46,7 +46,7 @@ const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-max">
       <Swiper
         modules={[Navigation, Autoplay]}
         navigation
@@ -58,7 +58,7 @@ const Hero = () => {
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div
-              className="w-full h-screen bg-cover bg-center flex items-center"
+              className="w-full h-[30rem] md:h-screen bg-cover bg-center flex items-center"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               <div className="bg-black/50 w-full h-full flex items-center justify-start px-6 md:px-24">
